@@ -1,0 +1,644 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 15, 2026 16:57:42
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'cal_shift_val' remains unconnected for this instance (VERI-1927) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:603)
+[EFX-0011 VERI-WARNING] port 'INDEX' remains unconnected for this instance (VERI-1927) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:871)
+[EFX-0011 VERI-WARNING] port 'axi_awid' remains unconnected for this instance (VERI-1927) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1145)
+[EFX-0011 VERI-WARNING] port 'lcd_xpos' remains unconnected for this instance (VERI-1927) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1172)
+[EFX-0011 VERI-WARNING] port 'TMDS_Clk_p' remains unconnected for this instance (VERI-1927) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1273)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 1 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:434)
+[EFX-0011 VERI-WARNING] port 'wr_busy' remains unconnected for this instance (VERI-1927) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:184)
+[EFX-0011 VERI-WARNING] port 'wr_data' is not connected on this instance (VERI-2435) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:184)
+[EFX-0011 VERI-WARNING] port '**' is not connected on this instance (VERI-2435) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2495)
+[EFX-0011 VERI-WARNING] expression size ** truncated to fit in target size ** (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2610)
+[EFX-0011 VERI-WARNING] actual bit length ** differs from formal bit length *** for port '**' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2495)
+[EFX-0011 VERI-WARNING] expression size ** truncated to fit in target size ** (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2610)
+[EFX-0011 VERI-WARNING] expression size ** truncated to fit in target size ** (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2610)
+[EFX-0011 VERI-WARNING] actual bit length ** differs from formal bit length *** for port '**' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2495)
+[EFX-0011 VERI-WARNING] port '**' remains unconnected for this instance (VERI-1927) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:590)
+[EFX-0011 VERI-WARNING] actual bit length ** differs from formal bit length *** for port '**' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:590)
+[EFX-0011 VERI-WARNING] port '**' remains unconnected for this instance (VERI-1927) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1441)
+[EFX-0011 VERI-WARNING] port '**' remains unconnected for this instance (VERI-1927) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:4885)
+[EFX-0011 VERI-WARNING] actual bit length ** differs from formal bit length *** for port '**' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:4885)
+[EFX-0011 VERI-WARNING] input port '**' is not connected on this instance (VDB-1013) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:4885)
+[EFX-0011 VERI-WARNING] expression size ** truncated to fit in target size ** (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1441)
+[EFX-0011 VERI-WARNING] net '**' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1441)
+[EFX-0011 VERI-WARNING] net '**' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:590)
+[EFX-0011 VERI-WARNING] input port '**' is not connected on this instance (VDB-1013) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:590)
+[EFX-0011 VERI-WARNING] input port '**' is not connected on this instance (VDB-1013) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2495)
+[EFX-0011 VERI-WARNING] input port 'wr_data[127]' is not connected on this instance (VDB-1013) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:117)
+[EFX-0011 VERI-WARNING] actual bit length 4 differs from formal bit length 8 for port 'axi_aid' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:570)
+[EFX-0011 VERI-WARNING] actual bit length 4 differs from formal bit length 8 for port 'axi_wid' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:577)
+[EFX-0011 VERI-WARNING] actual bit length 4 differs from formal bit length 8 for port 'axi_bid' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:586)
+[EFX-0011 VERI-WARNING] actual bit length 4 differs from formal bit length 8 for port 'axi_rid' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:592)
+[EFX-0011 VERI-WARNING] expression size 2 truncated to fit in target size 1 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\axi\AXI4_AWARMux.v:90)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 1 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\cmos_i2c\i2c_timing_ctrl_reg16_dat8_wronly.v:371)
+[EFX-0011 VERI-WARNING] expression size 3 truncated to fit in target size 2 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:705)
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:706)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 7 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\PWMLite.v:22)
+[EFX-0011 VERI-WARNING] net '_0046_[5]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:51)
+[EFX-0011 VERI-WARNING] net '_0054_[5]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:59)
+[EFX-0011 VERI-WARNING] net '_0056_[5]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:61)
+[EFX-0011 VERI-WARNING] net '_0058_[5]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:63)
+[EFX-0011 VERI-WARNING] net '_0060_[5]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:65)
+[EFX-0011 VERI-WARNING] net '_0065_[3]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:70)
+[EFX-0011 VERI-WARNING] net '_0129_[5]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:134)
+[EFX-0011 VERI-WARNING] net '_0137_[5]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:142)
+[EFX-0011 VERI-WARNING] net '_0139_[5]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:144)
+[EFX-0011 VERI-WARNING] net '_0141_[5]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:146)
+[EFX-0011 VERI-WARNING] net '_0143_[5]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:148)
+[EFX-0011 VERI-WARNING] net '_0331_[79]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:336)
+[EFX-0011 VERI-WARNING] net '_0332_[63]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:337)
+[EFX-0011 VERI-WARNING] net '_0333_[47]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:338)
+[EFX-0011 VERI-WARNING] net '_0334_[47]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:339)
+[EFX-0011 VERI-WARNING] net '_0404_[7]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:409)
+[EFX-0011 VERI-WARNING] net '_0472_[3]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:477)
+[EFX-0011 VERI-WARNING] net '_1400_[15]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:1405)
+[EFX-0011 VERI-WARNING] net '_1411_[2]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:1416)
+[EFX-0011 VERI-WARNING] actual bit length 1 differs from formal bit length 4 for port 'VSYNC' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:867)
+[EFX-0011 VERI-WARNING] actual bit length 1 differs from formal bit length 4 for port 'HSYNC' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:868)
+[EFX-0011 VERI-WARNING] expression size 3 truncated to fit in target size 2 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1007)
+[EFX-0011 VERI-WARNING] expression size 7 truncated to fit in target size 6 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1008)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 16 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\axi\axi4_ctrl.v:91)
+[EFX-0011 VERI-WARNING] expression size 3 truncated to fit in target size 2 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\axi\axi4_ctrl.v:113)
+[EFX-0011 VERI-WARNING] expression size 3 truncated to fit in target size 2 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\axi\axi4_ctrl.v:114)
+[EFX-0011 VERI-WARNING] expression size 3 truncated to fit in target size 2 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\axi\axi4_ctrl.v:196)
+[EFX-0011 VERI-WARNING] expression size 2 truncated to fit in target size 1 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\axi\axi4_ctrl.v:238)
+[EFX-0011 VERI-WARNING] expression size 23 truncated to fit in target size 22 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\axi\axi4_ctrl.v:257)
+[EFX-0011 VERI-WARNING] port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\W0_FIFO_32\W0_FIFO_32.sv:110)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 12 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\W0_FIFO_32\W0_FIFO_32.sv:1245)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 10 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\W0_FIFO_32\W0_FIFO_32.sv:1246)
+[EFX-0011 VERI-WARNING] input port 'a_wr_rst_i' is not connected on this instance (VDB-1013) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\W0_FIFO_32\W0_FIFO_32.sv:92)
+[EFX-0011 VERI-WARNING] port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\R0_FIFO_8\R0_FIFO_8.sv:116)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 10 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\R0_FIFO_8\R0_FIFO_8.sv:1236)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 14 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\R0_FIFO_8\R0_FIFO_8.sv:1237)
+[EFX-0011 VERI-WARNING] input port 'a_wr_rst_i' is not connected on this instance (VDB-1013) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\R0_FIFO_8\R0_FIFO_8.sv:95)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\axi\axi4_ctrl.v:449)
+[EFX-0011 VERI-WARNING] expression size 23 truncated to fit in target size 22 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\axi\axi4_ctrl.v:559)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 4 for port 'axi_bid' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1117)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 2 for port 'axi_bresp' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1118)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 1 for port 'axi_bvalid' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1119)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 2 for port 'axi_rresp' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1129)
+[EFX-0011 VERI-WARNING] actual bit length 64 differs from formal bit length 32 for port 'wframe_data' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1137)
+[EFX-0011 VERI-WARNING] actual bit length 16 differs from formal bit length 8 for port 'rframe_data' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1142)
+[EFX-0011 VERI-WARNING] actual bit length 8 differs from formal bit length 32 for port 'tp_o' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1144)
+[EFX-0011 VERI-WARNING] expression size 14 truncated to fit in target size 12 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\lcd_driver.v:145)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 2 for port 'mirror' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1184)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 4 for port 'data_island_data' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\hdmi_ip\rgb2dvi.v:50)
+[EFX-0011 VERI-WARNING] actual bit length 4 differs from formal bit length 3 for port 'mode' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\hdmi_ip\rgb2dvi.v:52)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 4 for port 'data_island_data' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\hdmi_ip\rgb2dvi.v:58)
+[EFX-0011 VERI-WARNING] actual bit length 4 differs from formal bit length 3 for port 'mode' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\hdmi_ip\rgb2dvi.v:60)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 4 for port 'data_island_data' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\hdmi_ip\rgb2dvi.v:66)
+[EFX-0011 VERI-WARNING] actual bit length 4 differs from formal bit length 3 for port 'mode' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\hdmi_ip\rgb2dvi.v:68)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 1 for port 'oe_i' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1255)
+[EFX-0011 VERI-WARNING] net 'i_dqs_n_hi[1]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:362)
+[EFX-0011 VERI-WARNING] net 'i_dqs_n_lo[1]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:363)
+[EFX-0011 VERI-WARNING] net 'w_dev_index_o[7]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:419)
+[EFX-0011 VERI-WARNING] net 'w_dev_cmd_o[7]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:420)
+[EFX-0011 VERI-WARNING] net 'w_dev_wdata_o[31]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:421)
+[EFX-0011 VERI-WARNING] net 'w_dev_wvalid_o' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:422)
+[EFX-0011 VERI-WARNING] net 'w_spi_ssn_o' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:426)
+[EFX-0011 VERI-WARNING] net 'w_spi_data_o[3]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:427)
+[EFX-0011 VERI-WARNING] net 'w_lcd_b_o[7]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:444)
+[EFX-0011 VERI-WARNING] net 'XYCrop_frame_vsync' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1017)
+[EFX-0011 VERI-WARNING] net 'XYCrop_frame_href' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1018)
+[EFX-0011 VERI-WARNING] net 'XYCrop_frame_de' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1019)
+[EFX-0011 VERI-WARNING] net 'XYCrop_frame_Gray[63]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1020)
+[EFX-0011 VERI-WARNING] input port 'SerialClk' is not connected on this instance (VDB-1013) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1253)
+[EFX-0256 WARNING] The primary output port 'csi_ctl0_o' wire 'csi_ctl0_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_ctl1_o' wire 'csi_ctl1_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd0_rst_o' wire 'csi_rxd0_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd1_rst_o' wire 'csi_rxd1_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd2_rst_o' wire 'csi_rxd2_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd3_rst_o' wire 'csi_rxd3_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_rst_o' wire 'dsi_txc_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_lp_p_oe' wire 'dsi_txc_lp_p_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_lp_p_o' wire 'dsi_txc_lp_p_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_lp_n_oe' wire 'dsi_txc_lp_n_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_lp_n_o' wire 'dsi_txc_lp_n_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_oe' wire 'dsi_txc_hs_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[7]' wire 'dsi_txc_hs_o[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[6]' wire 'dsi_txc_hs_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[5]' wire 'dsi_txc_hs_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[4]' wire 'dsi_txc_hs_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[3]' wire 'dsi_txc_hs_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[2]' wire 'dsi_txc_hs_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[1]' wire 'dsi_txc_hs_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[0]' wire 'dsi_txc_hs_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_rst_o' wire 'dsi_txd0_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_oe' wire 'dsi_txd0_hs_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[7]' wire 'dsi_txd0_hs_o[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[6]' wire 'dsi_txd0_hs_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[5]' wire 'dsi_txd0_hs_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[4]' wire 'dsi_txd0_hs_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[3]' wire 'dsi_txd0_hs_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[2]' wire 'dsi_txd0_hs_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[1]' wire 'dsi_txd0_hs_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[0]' wire 'dsi_txd0_hs_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_lp_p_oe' wire 'dsi_txd0_lp_p_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_lp_p_o' wire 'dsi_txd0_lp_p_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_lp_n_oe' wire 'dsi_txd0_lp_n_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_lp_n_o' wire 'dsi_txd0_lp_n_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_rst_o' wire 'dsi_txd1_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_lp_p_oe' wire 'dsi_txd1_lp_p_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_lp_p_o' wire 'dsi_txd1_lp_p_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_lp_n_oe' wire 'dsi_txd1_lp_n_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_lp_n_o' wire 'dsi_txd1_lp_n_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_oe' wire 'dsi_txd1_hs_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[7]' wire 'dsi_txd1_hs_o[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[6]' wire 'dsi_txd1_hs_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[5]' wire 'dsi_txd1_hs_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[4]' wire 'dsi_txd1_hs_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[3]' wire 'dsi_txd1_hs_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[2]' wire 'dsi_txd1_hs_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[1]' wire 'dsi_txd1_hs_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[0]' wire 'dsi_txd1_hs_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_rst_o' wire 'dsi_txd2_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_lp_p_oe' wire 'dsi_txd2_lp_p_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_lp_p_o' wire 'dsi_txd2_lp_p_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_lp_n_oe' wire 'dsi_txd2_lp_n_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_lp_n_o' wire 'dsi_txd2_lp_n_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_oe' wire 'dsi_txd2_hs_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[7]' wire 'dsi_txd2_hs_o[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[6]' wire 'dsi_txd2_hs_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[5]' wire 'dsi_txd2_hs_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[4]' wire 'dsi_txd2_hs_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[3]' wire 'dsi_txd2_hs_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[2]' wire 'dsi_txd2_hs_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[1]' wire 'dsi_txd2_hs_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[0]' wire 'dsi_txd2_hs_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_rst_o' wire 'dsi_txd3_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_lp_p_oe' wire 'dsi_txd3_lp_p_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_lp_p_o' wire 'dsi_txd3_lp_p_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_lp_n_oe' wire 'dsi_txd3_lp_n_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_lp_n_o' wire 'dsi_txd3_lp_n_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_oe' wire 'dsi_txd3_hs_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[7]' wire 'dsi_txd3_hs_o[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[6]' wire 'dsi_txd3_hs_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[5]' wire 'dsi_txd3_hs_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[4]' wire 'dsi_txd3_hs_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[3]' wire 'dsi_txd3_hs_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[2]' wire 'dsi_txd3_hs_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[1]' wire 'dsi_txd3_hs_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[0]' wire 'dsi_txd3_hs_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'uart_tx_o' wire 'uart_tx_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'cmos_sclk' wire 'cmos_sclk' is not driven.
+[EFX-0256 WARNING] The primary output port 'cmos_sdat_OUT' wire 'cmos_sdat_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'cmos_sdat_OE' wire 'cmos_sdat_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'cmos_ctl2' wire 'cmos_ctl2' is not driven.
+[EFX-0256 WARNING] The primary output port 'cmos_ctl3' wire 'cmos_ctl3' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_oe' wire 'lvds_txc_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[6]' wire 'lvds_txc_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[5]' wire 'lvds_txc_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[4]' wire 'lvds_txc_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[3]' wire 'lvds_txc_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[2]' wire 'lvds_txc_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[1]' wire 'lvds_txc_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[0]' wire 'lvds_txc_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_rst_o' wire 'lvds_txc_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_oe' wire 'lvds_txd0_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[6]' wire 'lvds_txd0_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[5]' wire 'lvds_txd0_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[4]' wire 'lvds_txd0_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[3]' wire 'lvds_txd0_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[2]' wire 'lvds_txd0_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[1]' wire 'lvds_txd0_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[0]' wire 'lvds_txd0_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_rst_o' wire 'lvds_txd0_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_oe' wire 'lvds_txd1_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[6]' wire 'lvds_txd1_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[5]' wire 'lvds_txd1_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[4]' wire 'lvds_txd1_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[3]' wire 'lvds_txd1_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[2]' wire 'lvds_txd1_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[1]' wire 'lvds_txd1_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[0]' wire 'lvds_txd1_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_rst_o' wire 'lvds_txd1_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_oe' wire 'lvds_txd2_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[6]' wire 'lvds_txd2_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[5]' wire 'lvds_txd2_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[4]' wire 'lvds_txd2_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[3]' wire 'lvds_txd2_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[2]' wire 'lvds_txd2_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[1]' wire 'lvds_txd2_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[0]' wire 'lvds_txd2_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_rst_o' wire 'lvds_txd2_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_oe' wire 'lvds_txd3_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[6]' wire 'lvds_txd3_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[5]' wire 'lvds_txd3_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[4]' wire 'lvds_txd3_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[3]' wire 'lvds_txd3_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[2]' wire 'lvds_txd3_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[1]' wire 'lvds_txd3_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[0]' wire 'lvds_txd3_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_rst_o' wire 'lvds_txd3_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_tp_sda_o' wire 'lcd_tp_sda_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_tp_sda_oe' wire 'lcd_tp_sda_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_tp_scl_o' wire 'lcd_tp_scl_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_tp_scl_oe' wire 'lcd_tp_scl_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_tp_int_o' wire 'lcd_tp_int_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_tp_int_oe' wire 'lcd_tp_int_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_tp_rst_o' wire 'lcd_tp_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_pwm_o' wire 'lcd_pwm_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_blen_o' wire 'lcd_blen_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_vs_o' wire 'lcd_vs_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_hs_o' wire 'lcd_hs_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_de_o' wire 'lcd_de_o' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][7:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2610)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[7:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2610)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2610)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2610)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][47:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2610)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[47:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2610)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:4778)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:4779)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.curr_bit[31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:4780)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.xor_in[6:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:4781)
+[EFX-0200 WARNING] Removing redundant signal : a_rst_i. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:3325)
+[EFX-0200 WARNING] Removing redundant signal : clk_i. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:3328)
+[EFX-0200 WARNING] Removing redundant signal : depth2width[31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:3551)
+[EFX-0200 WARNING] Removing redundant signal : width2depth.width[31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:3565)
+[EFX-0200 WARNING] Removing redundant signal : width2depth[31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:3564)
+[EFX-0200 WARNING] Removing redundant signal : rddepthcompute.rd_width[31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:3590)
+[EFX-0200 WARNING] Removing redundant signal : rddepthcompute.wr_width[31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:3589)
+[EFX-0200 WARNING] Removing redundant signal : rddepthcompute.wr_depth[31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:3588)
+[EFX-0200 WARNING] Removing redundant signal : rddepthcompute[31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:3587)
+[EFX-0200 WARNING] Removing redundant signal : rdwidthcompute.wr_width[31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:3573)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'a_rst_i' in module 'efx_fifo_top_589be9aa80674d2bba3dcf20576ea4d5(FAMILY="TITANIUM",BYPASS_RESET_SYNC=1,DEPTH=64,DATA_WIDTH=1,PIPELINE_REG=0,OPTIONAL_FLAGS=0,OUTPUT_REG=1,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=62,PROG_FULL_NEGATE=62,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=2)'. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:4885)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'clk_i' in module 'efx_fifo_top_589be9aa80674d2bba3dcf20576ea4d5(FAMILY="TITANIUM",BYPASS_RESET_SYNC=1,DEPTH=64,DATA_WIDTH=1,PIPELINE_REG=0,OPTIONAL_FLAGS=0,OUTPUT_REG=1,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=62,PROG_FULL_NEGATE=62,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=2)'. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:4885)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[31]' in module 'ddr_3_controller_589be9aa80674d2bba3dcf20576ea4d5'. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1441)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[30]' in module 'ddr_3_controller_589be9aa80674d2bba3dcf20576ea4d5'. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1441)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[29]' in module 'ddr_3_controller_589be9aa80674d2bba3dcf20576ea4d5'. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1441)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[28]' in module 'ddr_3_controller_589be9aa80674d2bba3dcf20576ea4d5'. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1441)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[27]' in module 'ddr_3_controller_589be9aa80674d2bba3dcf20576ea4d5'. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1441)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[26]' in module 'ddr_3_controller_589be9aa80674d2bba3dcf20576ea4d5'. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1441)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[25]' in module 'ddr_3_controller_589be9aa80674d2bba3dcf20576ea4d5'. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1441)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[24]' in module 'ddr_3_controller_589be9aa80674d2bba3dcf20576ea4d5'. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1441)
+[EFX-0657 WARNING] Mapping into logic memory block 'ram' (64 bits) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1580) because size is too small (<=64)
+[EFX-0011 VERI-WARNING] Input/inout port clk_24m is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:11)
+[EFX-0011 VERI-WARNING] Input/inout port clk_25m is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:12)
+[EFX-0011 VERI-WARNING] Input/inout port clk_pixel is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:20)
+[EFX-0011 VERI-WARNING] Input/inout port clk_pixel_10x is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:22)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_refclk_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:30)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_byteclk_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:31)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_serclk_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:32)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_txcclk_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:33)
+[EFX-0011 VERI-WARNING] Input/inout port clk_lvds_1x is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:60)
+[EFX-0011 VERI-WARNING] Input/inout port clk_lvds_7x is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:61)
+[EFX-0011 VERI-WARNING] Input/inout port clk_27m is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:62)
+[EFX-0011 VERI-WARNING] Input/inout port clk_54m is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:63)
+[EFX-0011 VERI-WARNING] Input/inout port csi_ctl0_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:121)
+[EFX-0011 VERI-WARNING] Input/inout port csi_ctl1_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:125)
+[EFX-0011 VERI-WARNING] Input/inout port csi_scl_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:129)
+[EFX-0011 VERI-WARNING] Input/inout port csi_sda_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:133)
+[EFX-0011 VERI-WARNING] Input/inout port csi_rxd1_lp_n_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:156)
+[EFX-0011 VERI-WARNING] Input/inout port csi_rxd1_lp_p_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:157)
+[EFX-0011 VERI-WARNING] Input/inout port csi_rxd2_lp_p_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:165)
+[EFX-0011 VERI-WARNING] Input/inout port csi_rxd2_lp_n_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:166)
+[EFX-0011 VERI-WARNING] Input/inout port csi_rxd3_lp_p_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:174)
+[EFX-0011 VERI-WARNING] Input/inout port csi_rxd3_lp_n_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:175)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_txd0_lp_p_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:235)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_txd0_lp_n_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:236)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_txd1_lp_p_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:237)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_txd1_lp_n_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:238)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_txd2_lp_p_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:239)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_txd2_lp_n_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:240)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_txd3_lp_p_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:241)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_txd3_lp_n_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:242)
+[EFX-0011 VERI-WARNING] Input/inout port uart_rx_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:247)
+[EFX-0011 VERI-WARNING] Input/inout port cmos_sdat_IN is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:257)
+[EFX-0011 VERI-WARNING] Input/inout port cmos_href is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:264)
+[EFX-0011 VERI-WARNING] Input/inout port cmos_data[7] is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:265)
+[EFX-0011 VERI-WARNING] Input/inout port cmos_ctl1 is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:266)
+[EFX-0011 VERI-WARNING] Input/inout port lcd_tp_sda_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:316)
+[EFX-0011 VERI-WARNING] Input/inout port lcd_tp_scl_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:320)
+[EFX-0011 VERI-WARNING] Input/inout port lcd_tp_int_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:324)
+[EFX-0011 VERI-WARNING] Input/inout port lcd_b7_0_i[7] is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:344)
+[EFX-0011 VERI-WARNING] Input/inout port lcd_g7_0_i[7] is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:345)
+[EFX-0011 VERI-WARNING] Input/inout port lcd_r7_0_i[7] is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:346)
+[EFX-0011 VERI-WARNING] Found 69 warnings in the post-synthesis netlist. 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 15, 2026 17:21:22
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'cal_shift_val' remains unconnected for this instance (VERI-1927) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:603)
+[EFX-0011 VERI-WARNING] port 'INDEX' remains unconnected for this instance (VERI-1927) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:871)
+[EFX-0011 VERI-WARNING] port 'axi_awid' remains unconnected for this instance (VERI-1927) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1145)
+[EFX-0011 VERI-WARNING] port 'lcd_xpos' remains unconnected for this instance (VERI-1927) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1172)
+[EFX-0011 VERI-WARNING] port 'TMDS_Clk_p' remains unconnected for this instance (VERI-1927) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1273)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 1 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:434)
+[EFX-0011 VERI-WARNING] port 'wr_busy' remains unconnected for this instance (VERI-1927) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:184)
+[EFX-0011 VERI-WARNING] port 'wr_data' is not connected on this instance (VERI-2435) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:184)
+[EFX-0011 VERI-WARNING] port '**' is not connected on this instance (VERI-2435) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2495)
+[EFX-0011 VERI-WARNING] expression size ** truncated to fit in target size ** (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2610)
+[EFX-0011 VERI-WARNING] actual bit length ** differs from formal bit length *** for port '**' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2495)
+[EFX-0011 VERI-WARNING] expression size ** truncated to fit in target size ** (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2610)
+[EFX-0011 VERI-WARNING] expression size ** truncated to fit in target size ** (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2610)
+[EFX-0011 VERI-WARNING] actual bit length ** differs from formal bit length *** for port '**' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2495)
+[EFX-0011 VERI-WARNING] port '**' remains unconnected for this instance (VERI-1927) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:590)
+[EFX-0011 VERI-WARNING] actual bit length ** differs from formal bit length *** for port '**' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:590)
+[EFX-0011 VERI-WARNING] port '**' remains unconnected for this instance (VERI-1927) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1441)
+[EFX-0011 VERI-WARNING] port '**' remains unconnected for this instance (VERI-1927) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:4885)
+[EFX-0011 VERI-WARNING] actual bit length ** differs from formal bit length *** for port '**' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:4885)
+[EFX-0011 VERI-WARNING] input port '**' is not connected on this instance (VDB-1013) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:4885)
+[EFX-0011 VERI-WARNING] expression size ** truncated to fit in target size ** (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1441)
+[EFX-0011 VERI-WARNING] net '**' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1441)
+[EFX-0011 VERI-WARNING] net '**' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:590)
+[EFX-0011 VERI-WARNING] input port '**' is not connected on this instance (VDB-1013) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:590)
+[EFX-0011 VERI-WARNING] input port '**' is not connected on this instance (VDB-1013) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2495)
+[EFX-0011 VERI-WARNING] input port 'wr_data[127]' is not connected on this instance (VDB-1013) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:117)
+[EFX-0011 VERI-WARNING] actual bit length 4 differs from formal bit length 8 for port 'axi_aid' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:570)
+[EFX-0011 VERI-WARNING] actual bit length 4 differs from formal bit length 8 for port 'axi_wid' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:577)
+[EFX-0011 VERI-WARNING] actual bit length 4 differs from formal bit length 8 for port 'axi_bid' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:586)
+[EFX-0011 VERI-WARNING] actual bit length 4 differs from formal bit length 8 for port 'axi_rid' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:592)
+[EFX-0011 VERI-WARNING] expression size 2 truncated to fit in target size 1 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\axi\AXI4_AWARMux.v:90)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 1 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\cmos_i2c\i2c_timing_ctrl_reg16_dat8_wronly.v:371)
+[EFX-0011 VERI-WARNING] expression size 3 truncated to fit in target size 2 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:705)
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:706)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 7 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\PWMLite.v:22)
+[EFX-0011 VERI-WARNING] net '_0046_[5]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:51)
+[EFX-0011 VERI-WARNING] net '_0054_[5]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:59)
+[EFX-0011 VERI-WARNING] net '_0056_[5]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:61)
+[EFX-0011 VERI-WARNING] net '_0058_[5]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:63)
+[EFX-0011 VERI-WARNING] net '_0060_[5]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:65)
+[EFX-0011 VERI-WARNING] net '_0065_[3]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:70)
+[EFX-0011 VERI-WARNING] net '_0129_[5]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:134)
+[EFX-0011 VERI-WARNING] net '_0137_[5]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:142)
+[EFX-0011 VERI-WARNING] net '_0139_[5]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:144)
+[EFX-0011 VERI-WARNING] net '_0141_[5]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:146)
+[EFX-0011 VERI-WARNING] net '_0143_[5]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:148)
+[EFX-0011 VERI-WARNING] net '_0331_[79]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:336)
+[EFX-0011 VERI-WARNING] net '_0332_[63]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:337)
+[EFX-0011 VERI-WARNING] net '_0333_[47]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:338)
+[EFX-0011 VERI-WARNING] net '_0334_[47]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:339)
+[EFX-0011 VERI-WARNING] net '_0404_[7]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:409)
+[EFX-0011 VERI-WARNING] net '_0472_[3]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:477)
+[EFX-0011 VERI-WARNING] net '_1400_[15]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:1405)
+[EFX-0011 VERI-WARNING] net '_1411_[2]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\pri\mipi\MIPIRx4LaneFre.v:1416)
+[EFX-0011 VERI-WARNING] actual bit length 1 differs from formal bit length 4 for port 'VSYNC' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:867)
+[EFX-0011 VERI-WARNING] actual bit length 1 differs from formal bit length 4 for port 'HSYNC' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:868)
+[EFX-0011 VERI-WARNING] expression size 3 truncated to fit in target size 2 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1007)
+[EFX-0011 VERI-WARNING] expression size 7 truncated to fit in target size 6 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1008)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 16 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\axi\axi4_ctrl.v:91)
+[EFX-0011 VERI-WARNING] expression size 3 truncated to fit in target size 2 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\axi\axi4_ctrl.v:113)
+[EFX-0011 VERI-WARNING] expression size 3 truncated to fit in target size 2 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\axi\axi4_ctrl.v:114)
+[EFX-0011 VERI-WARNING] expression size 3 truncated to fit in target size 2 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\axi\axi4_ctrl.v:196)
+[EFX-0011 VERI-WARNING] expression size 2 truncated to fit in target size 1 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\axi\axi4_ctrl.v:238)
+[EFX-0011 VERI-WARNING] expression size 23 truncated to fit in target size 22 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\axi\axi4_ctrl.v:257)
+[EFX-0011 VERI-WARNING] port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\W0_FIFO_32\W0_FIFO_32.sv:110)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 12 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\W0_FIFO_32\W0_FIFO_32.sv:1245)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 10 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\W0_FIFO_32\W0_FIFO_32.sv:1246)
+[EFX-0011 VERI-WARNING] input port 'a_wr_rst_i' is not connected on this instance (VDB-1013) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\W0_FIFO_32\W0_FIFO_32.sv:92)
+[EFX-0011 VERI-WARNING] port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\R0_FIFO_8\R0_FIFO_8.sv:116)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 10 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\R0_FIFO_8\R0_FIFO_8.sv:1236)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 14 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\R0_FIFO_8\R0_FIFO_8.sv:1237)
+[EFX-0011 VERI-WARNING] input port 'a_wr_rst_i' is not connected on this instance (VDB-1013) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\R0_FIFO_8\R0_FIFO_8.sv:95)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\axi\axi4_ctrl.v:449)
+[EFX-0011 VERI-WARNING] expression size 23 truncated to fit in target size 22 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\axi\axi4_ctrl.v:559)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 4 for port 'axi_bid' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1117)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 2 for port 'axi_bresp' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1118)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 1 for port 'axi_bvalid' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1119)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 2 for port 'axi_rresp' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1129)
+[EFX-0011 VERI-WARNING] actual bit length 64 differs from formal bit length 32 for port 'wframe_data' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1137)
+[EFX-0011 VERI-WARNING] actual bit length 16 differs from formal bit length 8 for port 'rframe_data' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1142)
+[EFX-0011 VERI-WARNING] actual bit length 8 differs from formal bit length 32 for port 'tp_o' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1144)
+[EFX-0011 VERI-WARNING] expression size 14 truncated to fit in target size 12 (VERI-1209) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\lcd_driver.v:145)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 2 for port 'mirror' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1184)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 4 for port 'data_island_data' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\hdmi_ip\rgb2dvi.v:50)
+[EFX-0011 VERI-WARNING] actual bit length 4 differs from formal bit length 3 for port 'mode' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\hdmi_ip\rgb2dvi.v:52)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 4 for port 'data_island_data' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\hdmi_ip\rgb2dvi.v:58)
+[EFX-0011 VERI-WARNING] actual bit length 4 differs from formal bit length 3 for port 'mode' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\hdmi_ip\rgb2dvi.v:60)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 4 for port 'data_island_data' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\hdmi_ip\rgb2dvi.v:66)
+[EFX-0011 VERI-WARNING] actual bit length 4 differs from formal bit length 3 for port 'mode' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\src\hdmi_ip\rgb2dvi.v:68)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 1 for port 'oe_i' (VERI-1330) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1255)
+[EFX-0011 VERI-WARNING] net 'i_dqs_n_hi[1]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:362)
+[EFX-0011 VERI-WARNING] net 'i_dqs_n_lo[1]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:363)
+[EFX-0011 VERI-WARNING] net 'w_dev_index_o[7]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:419)
+[EFX-0011 VERI-WARNING] net 'w_dev_cmd_o[7]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:420)
+[EFX-0011 VERI-WARNING] net 'w_dev_wdata_o[31]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:421)
+[EFX-0011 VERI-WARNING] net 'w_dev_wvalid_o' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:422)
+[EFX-0011 VERI-WARNING] net 'w_spi_ssn_o' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:426)
+[EFX-0011 VERI-WARNING] net 'w_spi_data_o[3]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:427)
+[EFX-0011 VERI-WARNING] net 'w_lcd_b_o[7]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:444)
+[EFX-0011 VERI-WARNING] net 'XYCrop_frame_vsync' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1017)
+[EFX-0011 VERI-WARNING] net 'XYCrop_frame_href' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1018)
+[EFX-0011 VERI-WARNING] net 'XYCrop_frame_de' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1019)
+[EFX-0011 VERI-WARNING] net 'XYCrop_frame_Gray[63]' does not have a driver (VDB-1002) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1020)
+[EFX-0011 VERI-WARNING] input port 'SerialClk' is not connected on this instance (VDB-1013) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:1253)
+[EFX-0256 WARNING] The primary output port 'csi_ctl0_o' wire 'csi_ctl0_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_ctl1_o' wire 'csi_ctl1_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd0_rst_o' wire 'csi_rxd0_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd1_rst_o' wire 'csi_rxd1_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd2_rst_o' wire 'csi_rxd2_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd3_rst_o' wire 'csi_rxd3_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_rst_o' wire 'dsi_txc_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_lp_p_oe' wire 'dsi_txc_lp_p_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_lp_p_o' wire 'dsi_txc_lp_p_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_lp_n_oe' wire 'dsi_txc_lp_n_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_lp_n_o' wire 'dsi_txc_lp_n_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_oe' wire 'dsi_txc_hs_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[7]' wire 'dsi_txc_hs_o[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[6]' wire 'dsi_txc_hs_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[5]' wire 'dsi_txc_hs_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[4]' wire 'dsi_txc_hs_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[3]' wire 'dsi_txc_hs_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[2]' wire 'dsi_txc_hs_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[1]' wire 'dsi_txc_hs_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[0]' wire 'dsi_txc_hs_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_rst_o' wire 'dsi_txd0_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_oe' wire 'dsi_txd0_hs_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[7]' wire 'dsi_txd0_hs_o[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[6]' wire 'dsi_txd0_hs_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[5]' wire 'dsi_txd0_hs_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[4]' wire 'dsi_txd0_hs_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[3]' wire 'dsi_txd0_hs_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[2]' wire 'dsi_txd0_hs_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[1]' wire 'dsi_txd0_hs_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[0]' wire 'dsi_txd0_hs_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_lp_p_oe' wire 'dsi_txd0_lp_p_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_lp_p_o' wire 'dsi_txd0_lp_p_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_lp_n_oe' wire 'dsi_txd0_lp_n_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_lp_n_o' wire 'dsi_txd0_lp_n_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_rst_o' wire 'dsi_txd1_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_lp_p_oe' wire 'dsi_txd1_lp_p_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_lp_p_o' wire 'dsi_txd1_lp_p_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_lp_n_oe' wire 'dsi_txd1_lp_n_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_lp_n_o' wire 'dsi_txd1_lp_n_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_oe' wire 'dsi_txd1_hs_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[7]' wire 'dsi_txd1_hs_o[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[6]' wire 'dsi_txd1_hs_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[5]' wire 'dsi_txd1_hs_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[4]' wire 'dsi_txd1_hs_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[3]' wire 'dsi_txd1_hs_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[2]' wire 'dsi_txd1_hs_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[1]' wire 'dsi_txd1_hs_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[0]' wire 'dsi_txd1_hs_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_rst_o' wire 'dsi_txd2_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_lp_p_oe' wire 'dsi_txd2_lp_p_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_lp_p_o' wire 'dsi_txd2_lp_p_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_lp_n_oe' wire 'dsi_txd2_lp_n_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_lp_n_o' wire 'dsi_txd2_lp_n_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_oe' wire 'dsi_txd2_hs_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[7]' wire 'dsi_txd2_hs_o[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[6]' wire 'dsi_txd2_hs_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[5]' wire 'dsi_txd2_hs_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[4]' wire 'dsi_txd2_hs_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[3]' wire 'dsi_txd2_hs_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[2]' wire 'dsi_txd2_hs_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[1]' wire 'dsi_txd2_hs_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[0]' wire 'dsi_txd2_hs_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_rst_o' wire 'dsi_txd3_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_lp_p_oe' wire 'dsi_txd3_lp_p_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_lp_p_o' wire 'dsi_txd3_lp_p_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_lp_n_oe' wire 'dsi_txd3_lp_n_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_lp_n_o' wire 'dsi_txd3_lp_n_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_oe' wire 'dsi_txd3_hs_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[7]' wire 'dsi_txd3_hs_o[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[6]' wire 'dsi_txd3_hs_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[5]' wire 'dsi_txd3_hs_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[4]' wire 'dsi_txd3_hs_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[3]' wire 'dsi_txd3_hs_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[2]' wire 'dsi_txd3_hs_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[1]' wire 'dsi_txd3_hs_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[0]' wire 'dsi_txd3_hs_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'uart_tx_o' wire 'uart_tx_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'cmos_sclk' wire 'cmos_sclk' is not driven.
+[EFX-0256 WARNING] The primary output port 'cmos_sdat_OUT' wire 'cmos_sdat_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'cmos_sdat_OE' wire 'cmos_sdat_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'cmos_ctl2' wire 'cmos_ctl2' is not driven.
+[EFX-0256 WARNING] The primary output port 'cmos_ctl3' wire 'cmos_ctl3' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_oe' wire 'lvds_txc_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[6]' wire 'lvds_txc_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[5]' wire 'lvds_txc_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[4]' wire 'lvds_txc_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[3]' wire 'lvds_txc_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[2]' wire 'lvds_txc_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[1]' wire 'lvds_txc_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[0]' wire 'lvds_txc_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_rst_o' wire 'lvds_txc_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_oe' wire 'lvds_txd0_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[6]' wire 'lvds_txd0_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[5]' wire 'lvds_txd0_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[4]' wire 'lvds_txd0_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[3]' wire 'lvds_txd0_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[2]' wire 'lvds_txd0_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[1]' wire 'lvds_txd0_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[0]' wire 'lvds_txd0_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_rst_o' wire 'lvds_txd0_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_oe' wire 'lvds_txd1_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[6]' wire 'lvds_txd1_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[5]' wire 'lvds_txd1_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[4]' wire 'lvds_txd1_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[3]' wire 'lvds_txd1_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[2]' wire 'lvds_txd1_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[1]' wire 'lvds_txd1_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[0]' wire 'lvds_txd1_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_rst_o' wire 'lvds_txd1_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_oe' wire 'lvds_txd2_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[6]' wire 'lvds_txd2_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[5]' wire 'lvds_txd2_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[4]' wire 'lvds_txd2_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[3]' wire 'lvds_txd2_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[2]' wire 'lvds_txd2_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[1]' wire 'lvds_txd2_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[0]' wire 'lvds_txd2_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_rst_o' wire 'lvds_txd2_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_oe' wire 'lvds_txd3_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[6]' wire 'lvds_txd3_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[5]' wire 'lvds_txd3_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[4]' wire 'lvds_txd3_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[3]' wire 'lvds_txd3_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[2]' wire 'lvds_txd3_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[1]' wire 'lvds_txd3_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[0]' wire 'lvds_txd3_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_rst_o' wire 'lvds_txd3_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_tp_sda_o' wire 'lcd_tp_sda_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_tp_sda_oe' wire 'lcd_tp_sda_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_tp_scl_o' wire 'lcd_tp_scl_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_tp_scl_oe' wire 'lcd_tp_scl_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_tp_int_o' wire 'lcd_tp_int_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_tp_int_oe' wire 'lcd_tp_int_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_tp_rst_o' wire 'lcd_tp_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_pwm_o' wire 'lcd_pwm_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_blen_o' wire 'lcd_blen_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_vs_o' wire 'lcd_vs_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_hs_o' wire 'lcd_hs_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_de_o' wire 'lcd_de_o' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][7:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2610)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[7:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2610)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2610)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2610)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][47:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2610)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[47:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:2610)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:4778)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:4779)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.curr_bit[31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:4780)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.xor_in[6:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:4781)
+[EFX-0200 WARNING] Removing redundant signal : a_rst_i. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:3325)
+[EFX-0200 WARNING] Removing redundant signal : clk_i. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:3328)
+[EFX-0200 WARNING] Removing redundant signal : depth2width[31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:3551)
+[EFX-0200 WARNING] Removing redundant signal : width2depth.width[31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:3565)
+[EFX-0200 WARNING] Removing redundant signal : width2depth[31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:3564)
+[EFX-0200 WARNING] Removing redundant signal : rddepthcompute.rd_width[31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:3590)
+[EFX-0200 WARNING] Removing redundant signal : rddepthcompute.wr_width[31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:3589)
+[EFX-0200 WARNING] Removing redundant signal : rddepthcompute.wr_depth[31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:3588)
+[EFX-0200 WARNING] Removing redundant signal : rddepthcompute[31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:3587)
+[EFX-0200 WARNING] Removing redundant signal : rdwidthcompute.wr_width[31:0]. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:3573)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'a_rst_i' in module 'efx_fifo_top_589be9aa80674d2bba3dcf20576ea4d5(FAMILY="TITANIUM",BYPASS_RESET_SYNC=1,DEPTH=64,DATA_WIDTH=1,PIPELINE_REG=0,OPTIONAL_FLAGS=0,OUTPUT_REG=1,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=62,PROG_FULL_NEGATE=62,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=2)'. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:4885)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'clk_i' in module 'efx_fifo_top_589be9aa80674d2bba3dcf20576ea4d5(FAMILY="TITANIUM",BYPASS_RESET_SYNC=1,DEPTH=64,DATA_WIDTH=1,PIPELINE_REG=0,OPTIONAL_FLAGS=0,OUTPUT_REG=1,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=62,PROG_FULL_NEGATE=62,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=2)'. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:4885)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[31]' in module 'ddr_3_controller_589be9aa80674d2bba3dcf20576ea4d5'. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1441)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[30]' in module 'ddr_3_controller_589be9aa80674d2bba3dcf20576ea4d5'. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1441)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[29]' in module 'ddr_3_controller_589be9aa80674d2bba3dcf20576ea4d5'. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1441)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[28]' in module 'ddr_3_controller_589be9aa80674d2bba3dcf20576ea4d5'. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1441)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[27]' in module 'ddr_3_controller_589be9aa80674d2bba3dcf20576ea4d5'. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1441)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[26]' in module 'ddr_3_controller_589be9aa80674d2bba3dcf20576ea4d5'. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1441)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[25]' in module 'ddr_3_controller_589be9aa80674d2bba3dcf20576ea4d5'. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1441)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[24]' in module 'ddr_3_controller_589be9aa80674d2bba3dcf20576ea4d5'. (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1441)
+[EFX-0657 WARNING] Mapping into logic memory block 'ram' (64 bits) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\ip\DdrCtrl\DdrCtrl.sv:1580) because size is too small (<=64)
+[EFX-0011 VERI-WARNING] Input/inout port clk_24m is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:11)
+[EFX-0011 VERI-WARNING] Input/inout port clk_25m is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:12)
+[EFX-0011 VERI-WARNING] Input/inout port clk_pixel is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:20)
+[EFX-0011 VERI-WARNING] Input/inout port clk_pixel_10x is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:22)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_refclk_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:30)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_byteclk_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:31)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_serclk_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:32)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_txcclk_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:33)
+[EFX-0011 VERI-WARNING] Input/inout port clk_lvds_1x is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:60)
+[EFX-0011 VERI-WARNING] Input/inout port clk_lvds_7x is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:61)
+[EFX-0011 VERI-WARNING] Input/inout port clk_27m is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:62)
+[EFX-0011 VERI-WARNING] Input/inout port clk_54m is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:63)
+[EFX-0011 VERI-WARNING] Input/inout port csi_ctl0_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:121)
+[EFX-0011 VERI-WARNING] Input/inout port csi_ctl1_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:125)
+[EFX-0011 VERI-WARNING] Input/inout port csi_scl_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:129)
+[EFX-0011 VERI-WARNING] Input/inout port csi_sda_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:133)
+[EFX-0011 VERI-WARNING] Input/inout port csi_rxd1_lp_n_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:156)
+[EFX-0011 VERI-WARNING] Input/inout port csi_rxd1_lp_p_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:157)
+[EFX-0011 VERI-WARNING] Input/inout port csi_rxd2_lp_p_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:165)
+[EFX-0011 VERI-WARNING] Input/inout port csi_rxd2_lp_n_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:166)
+[EFX-0011 VERI-WARNING] Input/inout port csi_rxd3_lp_p_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:174)
+[EFX-0011 VERI-WARNING] Input/inout port csi_rxd3_lp_n_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:175)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_txd0_lp_p_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:235)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_txd0_lp_n_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:236)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_txd1_lp_p_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:237)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_txd1_lp_n_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:238)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_txd2_lp_p_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:239)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_txd2_lp_n_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:240)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_txd3_lp_p_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:241)
+[EFX-0011 VERI-WARNING] Input/inout port dsi_txd3_lp_n_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:242)
+[EFX-0011 VERI-WARNING] Input/inout port uart_rx_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:247)
+[EFX-0011 VERI-WARNING] Input/inout port cmos_sdat_IN is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:257)
+[EFX-0011 VERI-WARNING] Input/inout port cmos_href is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:264)
+[EFX-0011 VERI-WARNING] Input/inout port cmos_data[7] is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:265)
+[EFX-0011 VERI-WARNING] Input/inout port cmos_ctl1 is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:266)
+[EFX-0011 VERI-WARNING] Input/inout port lcd_tp_sda_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:316)
+[EFX-0011 VERI-WARNING] Input/inout port lcd_tp_scl_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:320)
+[EFX-0011 VERI-WARNING] Input/inout port lcd_tp_int_i is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:324)
+[EFX-0011 VERI-WARNING] Input/inout port lcd_b7_0_i[7] is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:344)
+[EFX-0011 VERI-WARNING] Input/inout port lcd_g7_0_i[7] is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:345)
+[EFX-0011 VERI-WARNING] Input/inout port lcd_r7_0_i[7] is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\xiaomeistudyFPGA\04-1_Ti60_SC2210_HDMI_1080P60\example_top.v:346)
+[EFX-0011 VERI-WARNING] Found 69 warnings in the post-synthesis netlist. 

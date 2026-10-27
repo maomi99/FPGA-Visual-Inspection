@@ -1,0 +1,341 @@
+           
+           Elitestek FPGA Placement and Routing.
+           Version: 2026.1.132 
+           Compiled: May 29 2026.
+           
+           Copyright (C) 2013 - 2026 Efinix, Inc. All rights reserved.
+
+           
+           The Tool Is Based on VPR of University of Toronto,
+           a free open source code under MIT license.
+           
+WARNING  : Found 70 warnings in the post-synthesis netlist.
+INFO     : Reading core interface constraints file "F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/outflow/Ti60_Demo.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/outflow/Ti60_Demo.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Reading core interface constraints file "F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/outflow/Ti60_Demo.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/outflow/Ti60_Demo.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : XLR count after merging: 42398
+INFO     : Netlist has 30925 luts, 14987 ffs and 4930 adders [PackerMsg::NetlistStatistics]
+INFO     : Packed into 42398 clusters with 2.8039293(1.0220058) inputs(outputs) per cluster for a total of 118881(43331) inputs(outputs) [PackerMsg::ClusterPackingStatistics]
+INFO     : Packed into 42398 xlrs with 2.8039293(1.0220058) inputs(outputs) per xlr for a total of 118881(43331) inputs(outputs) [PackerMsg::XLRPackingStatistics]
+INFO     : Packed 5 fracturable DSPs into 5 clusters [PackerMsg::DSPPackingStatistics]
+INFO     : Packing took 4.0951151 seconds [FlowMsg::StageDuration]
+INFO     :     Packing took 7.78125 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Packing virtual memory usage: begin = 60.544 MB, end = 352.652 MB, delta = 292.108 MB [FlowMsg::VMUsage]
+INFO     :     Packing peak virtual memory usage = 352.66 MB [FlowMsg::VMUsage::Peak]
+INFO     : Packing resident set memory usage: begin = 64.208 MB, end = 354.884 MB, delta = 290.676 MB [FlowMsg::RSSUsage]
+INFO     :     Packing peak resident set memory usage = 354.884 MB [FlowMsg::RSSUsage::Peak]
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:14] No valid object(s) found for 'dsi_refclk_i'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:14] No valid pin(s) found for clock
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:14] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:23] No valid object(s) found for 'clk_pixel'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:23] No valid pin(s) found for clock
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:23] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:29] No valid object(s) found for 'clk_54m'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:29] No valid pin(s) found for clock
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:29] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:36] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:53] set_false_path: Object(s) specified for -to option contains no vaild endpoints
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:53] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:64] set_false_path: Object(s) specified for -from option contains no vaild startpoints
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:64] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:66] set_false_path: Object(s) specified for -from option contains no vaild startpoints
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:66] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:74] set_false_path: Object(s) specified for -to option contains no vaild endpoints
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:74] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[0]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:97] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:97] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[0]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:98] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:98] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[1]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:99] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:99] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[1]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:100] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:100] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[2]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:101] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:101] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[2]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:102] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:102] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[3]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:103] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:103] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[3]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:104] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:104] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[4]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:105] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:105] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[4]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:106] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:106] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[5]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:107] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:107] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[5]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:108] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:108] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[6]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:109] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:109] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[6]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:110] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:110] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[7]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:111] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:111] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[7]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:112] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:112] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_href'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:113] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:113] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_href'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:114] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:114] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_vsync'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:115] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:115] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_vsync'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:116] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:116] Unable to run 'set_input_delay' constraint due to warnings found
+INFO     : SDC file 'F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc' parsed successfully.
+INFO     : Reading core interface constraints file "F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/outflow/Ti60_Demo.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/outflow/Ti60_Demo.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+WARNING  : Synchronizer chain starting at cell u_key2/key_meta~FF is driven by a non-sequential source key_data[1]:inpad [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/genblk2.genblk1.efx_resetsync_rd_rst/active_high.efx_resetsync_active_high/async_reg[0][0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell replay_ae_sync[0]~FF is driven by a non-sequential source LUT__88949:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_key1/key_meta~FF is driven by a non-sequential source key_data[0]:inpad [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_axi4_ctrl/Gen_RFIFO_8.u_R0_FIFO_8/u_efx_fifo_top/genblk2.genblk1.efx_resetsync_wr_rst/active_high.efx_resetsync_active_high/async_reg[0][0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_axi4_ctrl/Gen_RFIFO_8.u_R0_FIFO_8/u_efx_fifo_top/genblk2.genblk1.efx_resetsync_rd_rst/active_high.efx_resetsync_active_high/async_reg[0][0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/genblk2.genblk1.efx_resetsync_wr_rst/active_high.efx_resetsync_active_high/async_reg[0][0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+INFO     : Starting Global Placer with 32 threads ...
+            ----------     -------  --------------     -------
+             Iteration       WHPWL Worst Slack (ps) Convergence
+            ----------     -------  --------------     -------
+INFO     :           1    21062964             246         1.4%
+INFO     :           2    16840562             246         2.0%
+INFO     :           3    12986514             246         3.0%
+INFO     :           4     9248829             246         5.2%
+INFO     :           5     7028435             246         7.2%
+INFO     :           6     4831445             246        16.6%
+INFO     :           7     3401725             246        35.2%
+INFO     :           8     2959108            -195        45.0%
+INFO     :           9     2806896              98        51.7%
+INFO     :          10     2678995            -333        59.2%
+INFO     :          11     2752168            -123        59.2%
+INFO     :          12     2604344            -105        64.6%
+INFO     :          13     2543942            -126        65.8%
+INFO     :          14     2507022            -167        68.5%
+INFO     :          15     2452947               6        70.4%
+INFO     :          16     2455676            -168        71.1%
+INFO     :          17     2423227             -59        73.0%
+INFO     :          18     2413028             -15        73.5%
+INFO     :          19     2411138            -437        74.4%
+INFO     :          20     2406285            -655        75.7%
+INFO     :          21     2411386            -522        77.3%
+INFO     :          22     2393570            -623        78.8%
+INFO     :          23     2381995            -385        80.4%
+INFO     :          24     2377551            -196        81.6%
+INFO     :          25     2370929            -502        82.9%
+INFO     :          26     2367596            -306        84.0%
+INFO     :          27     2369921            -564        85.1%
+INFO     :          28     2370886            -789        86.4%
+INFO     :          29     2372677            -720        87.5%
+INFO     :          30     2371884            -719        88.6%
+INFO     :          31     2378031           -1020        89.5%
+INFO     :          32     2391144            -757        90.4%
+INFO     :          33     2397732            -872        91.2%
+INFO     :          34     2410454            -787        92.1%
+INFO     :          35     2428495            -712        92.6%
+INFO     :          36     2435629            -673        93.3%
+INFO     :          37     2440521           -1211        93.8%
+INFO     :          38     2448558           -1045        94.2%
+INFO     :          39     2347431           -1076        94.2%
+INFO     :          40     2449191           -1122        94.2%
+INFO     :          41     2439437           -1215        96.6%
+INFO     :          42     2436745           -1232        97.9%
+INFO     :          43     2471922           -1277        97.9%
+INFO     :          44     2520716           -1448        97.9%
+INFO     :          45     2534751           -1214        97.9%
+INFO     : GP: best_placement: wpd: 5916.13
+INFO     : Starting Annealer
+            ----------     -------  --------------     -------
+             Iteration       WHPWL  Delay Max (ps)     R Limit
+            ----------     -------  --------------     -------
+INFO     :           0     1456203            8425        30.0
+INFO     :           1     1659738            7218        28.7
+INFO     :           2     1543643            6626        26.6
+INFO     :           3     1447688             366        24.5
+INFO     :           4     1385755             361        22.3
+INFO     :           5     1343786             361        20.3
+INFO     :           6     1316088             361        18.4
+INFO     :           7     1288492             361        16.6
+INFO     :           8     1265858             361        15.0
+INFO     :           9     1246843             350        13.5
+INFO     :          10     1232183             350        12.2
+INFO     :          11     1219985            1946        10.9
+INFO     :          12     1206541            1946         9.8
+INFO     :          13     1196936            1946         8.8
+INFO     :          14     1188369            1946         7.9
+INFO     :          15     1178790            1924         7.1
+INFO     :          16     1170859            2040         6.4
+INFO     :          17     1163963            2123         5.7
+INFO     : DP: best_placement: wpd: 99.7121
+INFO     : Placement successful: 42687 cells are placed
+INFO     : Peak congestion smeared over 4x4 of the chip is 1.5241 at 85,262
+INFO     : Peak congestion smeared over 1/16 of the chip is 1.19217 at 103,68
+INFO     : Peak congestion smeared over 1/4 of the chip is 0.834889 at 90,93
+INFO     : Congestion-weighted HPWL per net: 35.7856
+INFO     : Post-placement cluster-level checks is successful
+INFO     : Post-placement primitive-level checks is successful
+INFO     : Placement took 40.5374719 seconds [FlowMsg::StageDuration]
+INFO     :     Placement took 213.109375 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Placement virtual memory usage: begin = 106.292 MB, end = 323.38 MB, delta = 217.088 MB [FlowMsg::VMUsage]
+INFO     :     Placement peak virtual memory usage = 473.924 MB [FlowMsg::VMUsage::Peak]
+INFO     : Placement resident set memory usage: begin = 121.28 MB, end = 340.556 MB, delta = 219.276 MB [FlowMsg::RSSUsage]
+INFO     :     Placement peak resident set memory usage = 492.564 MB [FlowMsg::RSSUsage::Peak]
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:14] No valid object(s) found for 'dsi_refclk_i'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:14] No valid pin(s) found for clock
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:14] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:23] No valid object(s) found for 'clk_pixel'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:23] No valid pin(s) found for clock
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:23] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:29] No valid object(s) found for 'clk_54m'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:29] No valid pin(s) found for clock
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:29] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:36] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:53] set_false_path: Object(s) specified for -to option contains no vaild endpoints
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:53] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:64] set_false_path: Object(s) specified for -from option contains no vaild startpoints
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:64] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:66] set_false_path: Object(s) specified for -from option contains no vaild startpoints
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:66] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:74] set_false_path: Object(s) specified for -to option contains no vaild endpoints
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:74] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[0]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:97] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:97] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[0]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:98] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:98] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[1]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:99] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:99] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[1]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:100] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:100] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[2]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:101] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:101] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[2]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:102] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:102] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[3]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:103] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:103] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[3]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:104] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:104] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[4]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:105] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:105] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[4]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:106] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:106] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[5]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:107] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:107] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[5]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:108] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:108] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[6]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:109] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:109] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[6]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:110] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:110] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[7]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:111] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:111] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[7]'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:112] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:112] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_href'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:113] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:113] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_href'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:114] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:114] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_vsync'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:115] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:115] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_vsync'
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:116] set_input_delay: No valid input port(s) found
+WARNING  : [SDC F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc:116] Unable to run 'set_input_delay' constraint due to warnings found
+INFO     : SDC file 'F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/Ti60_Demo.pt.sdc' parsed successfully.
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+tdqss_clk       1.978        505.561         (R-R)
+core_clk        4.207        237.699         (R-R)
+tac_clk         2.233        447.828         (R-R)
+twd_clk         2.056        486.381         (R-R)
+clk_sys         6.306        158.579         (R-R)
+clk_pixel_2x    6.092        164.150         (R-R)
+csi_rxc_i       3.806        262.743         (R-R)
+
+Geomean max period: 3.430
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+  tdqss_clk        tdqss_clk            2.604           0.626            (R-R)
+  tdqss_clk        core_clk             2.604           2.162            (R-R)
+  core_clk         tdqss_clk            2.604           1.375            (R-R)
+  core_clk         core_clk             5.208           1.001            (R-R)
+  core_clk         tac_clk              2.604           2.152            (R-R)
+  core_clk         twd_clk              0.541           0.992            (R-R)
+  core_clk         clk_sys              5.000           4.110            (R-R)
+  tac_clk          core_clk             2.604           2.032            (R-R)
+  tac_clk          tac_clk              2.604           0.371            (R-R)
+  twd_clk          twd_clk              2.604           0.548            (R-R)
+  clk_sys          core_clk             5.000           3.374            (R-R)
+  clk_sys          clk_sys             10.417           4.111            (R-R)
+  clk_pixel_2x     clk_pixel_2x         6.720           0.628            (R-R)
+  csi_rxc_i        csi_rxc_i            6.000           2.194            (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+  tdqss_clk        tdqss_clk            0.000           -0.236           (R-R)
+  tdqss_clk        core_clk             0.000            0.175           (R-R)
+  core_clk         tdqss_clk            0.000            0.175           (R-R)
+  core_clk         core_clk             0.000           -0.199           (R-R)
+  core_clk         tac_clk              0.000            0.175           (R-R)
+  core_clk         twd_clk             -1.883            1.339           (R-R)
+  core_clk         clk_sys              0.000            0.175           (R-R)
+  tac_clk          core_clk             0.000            0.175           (R-R)
+  tac_clk          tac_clk              0.000           -0.323           (R-R)
+  twd_clk          twd_clk              0.000           -0.787           (R-R)
+  clk_sys          core_clk             0.000            0.175           (R-R)
+  clk_sys          clk_sys              0.000            0.019           (R-R)
+  clk_pixel_2x     clk_pixel_2x         0.000           -0.795           (R-R)
+  csi_rxc_i        csi_rxc_i            0.000           -0.918           (R-R)
+
+WARNING  : Clock domain between tdqss_clk (rising) and tdqss_clk (rising) may not meet (slack: -0.236 ns) the hold (min) timing requirement
+WARNING  : Clock domain between core_clk (rising) and core_clk (rising) may not meet (slack: -0.199 ns) the hold (min) timing requirement
+WARNING  : Clock domain between tac_clk (rising) and tac_clk (rising) may not meet (slack: -0.323 ns) the hold (min) timing requirement
+WARNING  : Clock domain between twd_clk (rising) and twd_clk (rising) may not meet (slack: -0.787 ns) the hold (min) timing requirement
+WARNING  : Clock domain between clk_pixel_2x (rising) and clk_pixel_2x (rising) may not meet (slack: -0.795 ns) the hold (min) timing requirement
+WARNING  : Clock domain between csi_rxc_i (rising) and csi_rxc_i (rising) may not meet (slack: -0.918 ns) the hold (min) timing requirement
+INFO     : Write Timing Report to "F:/Yilinsi/04-1_Ti60_SC2210_HDMI_1080P60_new/04-1_Ti60_SC2210_HDMI_1080P60_new/outflow/Ti60_Demo.place.timing.rpt" ...

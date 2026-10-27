@@ -1,0 +1,225 @@
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Router Setup
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : [Setup Parallel Routing Scheduler]
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Route Circuit with 32 threads
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Beneficial skew enabled! Optimizing clock skews ... 
+INFO     : Non-legalized beneficial skew improved geomean CPD by 0.00% (from 2797ps to 2797ps)
+INFO     : CSS improved CPD of clock tdqss_clk by 0.00% (from 1992ps to 1992ps)
+INFO     : CSS improved CPD of clock core_clk by 0.00% (from 3640ps to 3640ps)
+INFO     : CSS improved CPD of clock tac_clk by 0.00% (from 1928ps to 1928ps)
+INFO     : CSS improved CPD of clock twd_clk by 0.00% (from 1976ps to 1976ps)
+INFO     : CSS improved CPD of clock clk_sys by 0.00% (from 5549ps to 5549ps)
+INFO     : CSS improved CPD of clock clk_pixel_2x by 0.00% (from 3868ps to 3868ps)
+INFO     : CSS improved CPD of clock cmos_pclk by 0.00% (from 2136ps to 2136ps)
+INFO     : CSS improved CPD of clock csi_rxc_i by 0.00% (from 2962ps to 2962ps)
+INFO     : Discretized beneficial skew improved geomean CPD by 0.00% (from 2797ps to 2797ps in 4 iterations and 0.1 sec)
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Overridding delay budgets for 404 synchronizer-related pins
+INFO     : Iter  1: overlap=13059   heapops=1948337    (0%) cpd=234   frr=1.00  msec=587
+INFO     : [Setup Delay Budgets | 125.0 ms]
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Hold Fixing
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Total min wire delay:   2740194
+INFO     : Hold fix wire delay:       2711
+INFO     : Hold fix delay ratio:     0.10%
+INFO     : Pins requiring hold fix:  0.07%
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Iter  2: overlap=5470    heapops=1367498    (36%) cpd=234   frr=1.00  msec=207
+INFO     : Iter  3: overlap=3281    heapops=971142     (53%) cpd=234   frr=1.00  msec=162
+INFO     : Iter  4: overlap=1920    heapops=730492     (65%) cpd=234   frr=1.00  msec=136
+INFO     : Iter  5: overlap=919     heapops=522672     (74%) cpd=234   frr=1.00  msec=112
+INFO     : Iter  6: overlap=361     heapops=296414     (81%) cpd=234   frr=1.00  msec=84
+INFO     : [Rebuild Parallel Routing Scheduler]
+INFO     : Iter  7: overlap=121     heapops=130739     (85%) cpd=234   frr=1.00  msec=72
+INFO     : Iter  8: overlap=49      heapops=77992      (87%) cpd=234   frr=1.00  msec=50
+INFO     : Iter  9: overlap=11      heapops=63810      (87%) cpd=234   frr=1.00  msec=47
+INFO     : Iter 10: overlap=3       heapops=40885      (87%) cpd=234   frr=1.00  msec=40
+INFO     : Iter 11: overlap=2       heapops=40221      (88%) cpd=234   frr=1.00  msec=41
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Beneficial skew enabled! Optimizing clock skews ... 
+INFO     : Non-legalized beneficial skew improved geomean CPD by 0.00% (from 3007ps to 3007ps)
+INFO     : CSS improved CPD of clock tdqss_clk by 0.00% (from 1992ps to 1992ps)
+INFO     : CSS improved CPD of clock core_clk by 0.00% (from 3965ps to 3965ps)
+INFO     : CSS improved CPD of clock tac_clk by 0.00% (from 2018ps to 2018ps)
+INFO     : CSS improved CPD of clock twd_clk by 0.00% (from 2014ps to 2014ps)
+INFO     : CSS improved CPD of clock clk_sys by 0.00% (from 6372ps to 6372ps)
+INFO     : CSS improved CPD of clock clk_pixel_2x by 0.00% (from 4419ps to 4419ps)
+INFO     : CSS improved CPD of clock cmos_pclk by 0.00% (from 2136ps to 2136ps)
+INFO     : CSS improved CPD of clock csi_rxc_i by 0.00% (from 3465ps to 3465ps)
+INFO     : Discretized beneficial skew improved geomean CPD by 0.00% (from 3007ps to 3007ps in 1 iterations and 0.2 sec)
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Iter 12: overlap=0       heapops=38975      (88%) cpd=234   frr=1.00  msec=214
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing Result
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing Succeeded in 2.14 seconds taking 12 iterations! 
+INFO     : 
+INFO     : First iteration critical path delay = 0.234 ns 
+INFO     : Last iteration critical path delay  = 0.234 ns (ratio = 1.00)
+INFO     : Max Routing Heap Size = 5,211
+INFO     : Routing trace written to file 'D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/outflow/Ti60_Demo.troutingtraces' 
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing took 11.8786106 seconds [FlowMsg::StageDuration]
+INFO     :     Routing took 21.796875 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Routing virtual memory usage: begin = 138.28 MB, end = 277.736 MB, delta = 139.456 MB [FlowMsg::VMUsage]
+INFO     :     Routing peak virtual memory usage = 409.984 MB [FlowMsg::VMUsage::Peak]
+INFO     : Routing resident set memory usage: begin = 158.952 MB, end = 294.664 MB, delta = 135.712 MB [FlowMsg::RSSUsage]
+INFO     :     Routing peak resident set memory usage = 411.812 MB [FlowMsg::RSSUsage::Peak]
+           ***** Beginning stage final timing analysis ... *****
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:14] No valid object(s) found for 'dsi_refclk_i'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:14] No valid pin(s) found for clock
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:14] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:23] No valid object(s) found for 'clk_pixel'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:23] No valid pin(s) found for clock
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:23] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:29] No valid object(s) found for 'clk_54m'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:29] No valid pin(s) found for clock
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:29] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:36] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:53] set_false_path: Object(s) specified for -to option contains no vaild endpoints
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:53] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:64] set_false_path: Object(s) specified for -from option contains no vaild startpoints
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:64] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:66] set_false_path: Object(s) specified for -from option contains no vaild startpoints
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:66] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:74] set_false_path: Object(s) specified for -to option contains no vaild endpoints
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:74] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[0]'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:97] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:97] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[0]'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:98] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:98] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[1]'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:99] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:99] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[1]'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:100] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:100] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[2]'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:101] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:101] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[2]'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:102] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:102] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[3]'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:103] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:103] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[3]'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:104] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:104] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[4]'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:105] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:105] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[4]'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:106] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:106] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[5]'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:107] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:107] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[5]'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:108] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:108] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[6]'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:109] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:109] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[6]'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:110] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:110] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[7]'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:111] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:111] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[7]'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:112] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:112] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_href'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:113] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:113] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_href'
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:114] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc:114] Unable to run 'set_input_delay' constraint due to warnings found
+INFO     : SDC file 'D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/Ti60_Demo.pt.sdc' parsed successfully.
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+tdqss_clk       2.102        475.737         (R-R)
+core_clk        4.075        245.399         (R-R)
+tac_clk         2.128        469.925         (R-R)
+twd_clk         2.124        470.810         (R-R)
+clk_sys         6.482        154.273         (R-R)
+clk_pixel_2x    4.529        220.799         (R-R)
+cmos_pclk       4.492        222.618         (F-R)
+csi_rxc_i       3.575        279.720         (R-R)
+
+Geomean max period: 3.409
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+  tdqss_clk        tdqss_clk            2.604           0.502            (R-R)
+  tdqss_clk        core_clk             2.604           2.120            (R-R)
+  core_clk         tdqss_clk            2.604           1.031            (R-R)
+  core_clk         core_clk             5.208           1.133            (R-R)
+  core_clk         tac_clk              2.604           2.248            (R-R)
+  core_clk         twd_clk              0.541           0.307            (R-R)
+  core_clk         clk_sys              5.000           3.930            (R-R)
+  tac_clk          core_clk             2.604           2.106            (R-R)
+  tac_clk          tac_clk              2.604           0.476            (R-R)
+  twd_clk          twd_clk              2.604           0.480            (R-R)
+  clk_sys          core_clk             5.000           3.755            (R-R)
+  clk_sys          clk_sys             10.417           3.935            (R-R)
+  clk_pixel_2x     clk_pixel_2x         6.720           2.191            (R-R)
+  cmos_pclk        cmos_pclk           10.000           8.213            (R-R)
+  cmos_pclk        cmos_pclk            5.000           2.754            (F-R)
+  csi_rxc_i        csi_rxc_i            6.000           2.425            (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+  tdqss_clk        tdqss_clk            0.000           0.098            (R-R)
+  tdqss_clk        core_clk             0.000           0.151            (R-R)
+  core_clk         tdqss_clk            0.000           0.076            (R-R)
+  core_clk         core_clk             0.000           0.031            (R-R)
+  core_clk         tac_clk              0.000           0.067            (R-R)
+  core_clk         twd_clk             -1.883           2.019            (R-R)
+  core_clk         clk_sys              0.000           0.082            (R-R)
+  tac_clk          core_clk             0.000           0.159            (R-R)
+  tac_clk          tac_clk              0.000           0.027            (R-R)
+  twd_clk          twd_clk              0.000           0.049            (R-R)
+  clk_sys          core_clk             0.000           0.145            (R-R)
+  clk_sys          clk_sys              0.000           0.027            (R-R)
+  clk_pixel_2x     clk_pixel_2x         0.000           0.046            (R-R)
+  cmos_pclk        cmos_pclk            0.000           0.109            (R-R)
+  cmos_pclk        cmos_pclk           -5.000           6.502            (F-R)
+  csi_rxc_i        csi_rxc_i            0.000           0.027            (R-R)
+
+INFO     : Write Timing Report to "D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/outflow\Ti60_Demo.timing.rpt" ...
+INFO     : final timing analysis took 9.0040566 seconds [FlowMsg::StageDuration]
+INFO     :     final timing analysis took 9.5 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : final timing analysis virtual memory usage: begin = 266.68 MB, end = 291.764 MB, delta = 25.084 MB [FlowMsg::VMUsage]
+INFO     :     final timing analysis peak virtual memory usage = 409.984 MB [FlowMsg::VMUsage::Peak]
+INFO     : final timing analysis resident set memory usage: begin = 284.132 MB, end = 309.212 MB, delta = 25.08 MB [FlowMsg::RSSUsage]
+INFO     :     final timing analysis peak resident set memory usage = 411.812 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage final timing analysis *****
+           
+           ***** Beginning stage bitstream generation ... *****
+INFO     : Reading core interface constraints file "D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/outflow/Ti60_Demo.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/outflow/Ti60_Demo.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Finished writing bitstream file D:/xiaomeistudyFPGA/04-1_Ti60_SC2210_HDMI_1080P60/work_pnr\Ti60_Demo.lbf.
+INFO     : Bitstream generation took 1.0303343 seconds [FlowMsg::StageDuration]
+INFO     :     Bitstream generation took 0.8125 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Bitstream generation virtual memory usage: begin = 259.932 MB, end = 365.052 MB, delta = 105.12 MB [FlowMsg::VMUsage]
+INFO     :     Bitstream generation peak virtual memory usage = 409.984 MB [FlowMsg::VMUsage::Peak]
+INFO     : Bitstream generation resident set memory usage: begin = 278.2 MB, end = 384.92 MB, delta = 106.72 MB [FlowMsg::RSSUsage]
+INFO     :     Bitstream generation peak resident set memory usage = 411.812 MB [FlowMsg::RSSUsage::Peak]
+INFO     : The entire flow of EFX_PNR took 44.7191853 seconds [FlowMsg::StageDuration]
+INFO     :     The entire flow of EFX_PNR took 63.96875 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : The entire flow of EFX_PNR virtual memory usage: begin = 20.284 MB, end = 365.052 MB, delta = 344.768 MB [FlowMsg::VMUsage]
+INFO     :     The entire flow of EFX_PNR peak virtual memory usage = 409.984 MB [FlowMsg::VMUsage::Peak]
+INFO     : The entire flow of EFX_PNR resident set memory usage: begin = 23.6 MB, end = 384.96 MB, delta = 361.36 MB [FlowMsg::RSSUsage]
+INFO     :     The entire flow of EFX_PNR peak resident set memory usage = 411.812 MB [FlowMsg::RSSUsage::Peak]
