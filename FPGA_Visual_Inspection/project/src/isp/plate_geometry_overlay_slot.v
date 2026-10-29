@@ -1,4 +1,5 @@
-module plate_geometry_overlay #(
+module plate_geometry_overlay_slot #(
+ parameter integer OSD_X=980, STALE_FRAMES=30,
  parameter integer CONFIRM_RESULTS=3,
  parameter integer INITIAL_CONFIRM_RESULTS=1
 )(
@@ -15,7 +16,7 @@ reg[11:0] x,y;
  reg[11:0] mask;
  reg[143:0] x0s,x1s,y0s,y1s;
  reg seen_toggle;
- reg[3:0] age;
+ reg[7:0] age;
  reg verdict_valid,last_candidate;
  reg have_result,raw_detected_s;
  reg[7:0] confirm_count;
@@ -103,13 +104,13 @@ reg[11:0] x,y;
    text_x_rel=0; text_y_rel=0;
 
    // Full painted rectangles are 16 pixels high, matching the original.
-   if(x>=12'd980 && x<12'd1054) begin
+   if(x>=OSD_X && x<(OSD_X+74)) begin
      if(y>=12'd54 && y<12'd70) begin
-       text_line=2; in_text_rect=1; text_x_rel=x-12'd980; text_y_rel=y-12'd54;
+       text_line=2; in_text_rect=1; text_x_rel=x-OSD_X; text_y_rel=y-12'd54;
      end else if(y>=12'd76 && y<12'd92) begin
-       text_line=3; in_text_rect=1; text_x_rel=x-12'd980; text_y_rel=y-12'd76;
-     end else if(x<12'd1030 && y>=12'd32 && y<12'd48) begin
-       text_line=1; in_text_rect=1; text_x_rel=x-12'd980; text_y_rel=y-12'd32;
+       text_line=3; in_text_rect=1; text_x_rel=x-OSD_X; text_y_rel=y-12'd76;
+     end else if(x<(OSD_X+50) && y>=12'd32 && y<12'd48) begin
+       text_line=1; in_text_rect=1; text_x_rel=x-OSD_X; text_y_rel=y-12'd32;
      end
    end
 
@@ -146,8 +147,8 @@ reg[11:0] x,y;
          0:text_ch="D";
          1:text_ch=have_result?(raw_detected_s?"1":"0"):"-";
          3:text_ch="A";
-         4:text_ch=have_result?"0":"-";
-         5:text_ch=!have_result?"-":((age<10)?("0"+age):("A"+age-10));
+         4:text_ch=!have_result?"-":((age[7:4]<10)?("0"+age[7:4]):("A"+age[7:4]-10));
+         5:text_ch=!have_result?"-":((age[3:0]<10)?("0"+age[3:0]):("A"+age[3:0]-10));
          default:text_ch=" ";
        endcase
      end
@@ -243,8 +244,8 @@ reg[11:0] x,y;
            end
          end
        end else begin
-         if(age<15) age<=age+1'b1;
-         if(age>=7) begin det_s<=0; verdict_valid<=0; confirm_count<=0; end
+         if(age<255) age<=age+1'b1;
+         if(age>=STALE_FRAMES-1) begin det_s<=0; verdict_valid<=0; confirm_count<=0; end
        end
      end else if(in_de) begin
        x<=x+1'b1;

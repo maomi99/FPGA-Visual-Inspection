@@ -51,8 +51,10 @@
         <efx:design_file name="src/axi/replay100_scheduler.v" version="default" library="default"/>
         <efx:design_file name="src/isp/mode_number_osd.v" version="default" library="default"/>
         <efx:design_file name="src/isp/plate_edge_features.v" version="default" library="default"/>
-        <efx:design_file name="src/isp/plate_geometry_check.v" version="default" library="default"/>
-        <efx:design_file name="src/isp/plate_geometry_overlay.v" version="default" library="default"/>
+        <efx:design_file name="src/isp/plate_geometry_check_dual.v" version="default" library="default"/>
+        <efx:design_file name="src/isp/plate_geometry_check_dual_core.v" version="default" library="default"/>
+        <efx:design_file name="src/isp/plate_geometry_overlay_dual.v" version="default" library="default"/>
+        <efx:design_file name="src/isp/plate_geometry_overlay_slot.v" version="default" library="default"/>
         <efx:top_vhdl_arch name=""/>
         <efx:msg_config name=""/>
         <efx:partition_definitions name=""/>

@@ -1,7 +1,8 @@
+// DUAL_R1: uploaded timing-pipelined checker, shared across two targets.
 // LP40111 analytic geometry checker. No learned image / no angle ROM.
 // Hole coordinates are twice 480x540 map coordinates (original pixel units).
 // Ordered end-hole pairs define 80mm baseline; perpendicular defines stem.
-module plate_geometry_check #(
+module plate_geometry_check_dual_core #(
  parameter integer MAX_HOLES=16, POSITION_TOL_MM=3,
  parameter integer MIN_BASE_PIXELS=120, MAX_BASE_PIXELS=560,
  parameter integer MIN_MISS_RUN=4, MAX_MISSING_PERCENT=8,
@@ -16,6 +17,9 @@ module plate_geometry_check #(
  parameter integer SLOPE_MISS_RUN=4, SLOPE_MISSING_PERCENT=8
 )(
  input wire clk,rst_n,start,input wire source_error,
+ input wire [15:0] exclude_mask,
+ input wire [1:0] reserved_slots, clear_history,
+ output reg result_slot, output reg [15:0] consumed_mask,
  input wire[4:0]hole_count,input wire[MAX_HOLES*11-1:0]hole_x,hole_y,
  input wire[MAX_HOLES*8-1:0]hole_diameter,
  output reg done,output reg[17:0]map_addr,input wire map_bit,
@@ -30,11 +34,11 @@ module plate_geometry_check #(
  REFINE_BASE=35,REFINE_CENTER=36,AFFINE_DELTA=37,AFFINE_SQUARE=38,
  AFFINE_SUM=39,AFFINE_SCALE=40,AFFINE_CHECK=41,
  FIND_LATCH=42,FIND_DELTA=43,FIND_SQUARE=44,FIND_DIST=45,FIND_COMPARE=46,
- MATCH_SCALE=47,MATCH_CHECK=48,EXTRA_LATCH=49,EXTRA_DELTA=50,EXTRA_DOT=51,ENDPOINT_DIV=52,ENDPOINT_DIV5=53,ENDPOINT_SIGN=54,EXTRA_LIMITS=55,EXTRA_SCALE=56,EXTRA_SUM=57,EXTRA_CHECK=58;
+ MATCH_SCALE=47,MATCH_CHECK=48,EXTRA_LATCH=49,EXTRA_DELTA=50,EXTRA_DOT=51,ENDPOINT_DIV=52,ENDPOINT_DIV5=53,ENDPOINT_SIGN=54,EXTRA_LIMITS=55,EXTRA_SCALE=56,EXTRA_SUM=57,EXTRA_CHECK=58,HISTORY_PICK=59,HISTORY_LOAD=60,SELECT_APPLY=61;
  reg[5:0]state;
  reg[4:0]i,j,k,idx,nearest,best_index[0:4],matches[0:4];
  reg[2:0]h,hits,best_hits;
- reg[15:0]used,best_used;
+ reg[15:0]used,best_used,owned_mask;
  reg signed[12:0]ax,ay,ox,oy,ex,ey,bax,bay,boxc,boyc;
  reg[25:0]len2,near_d2,score,best_score,blen2;
  reg[3:0]fault;
@@ -100,6 +104,24 @@ module plate_geometry_check #(
  wire[13:0] axis_abs_x=axis_x<0?-axis_x:axis_x,axis_abs_y=axis_y<0?-axis_y:axis_y;
  wire[14:0] move_l1={1'b0,move_abs_x}+{1'b0,move_abs_y};
  wire[14:0] axis_l1={1'b0,axis_abs_x}+{1'b0,axis_abs_y};
+ // Two independent temporal contexts. Slots are matched by center AND axis;
+ // a newly acquired pose resets history through the original same_pose test.
+ reg [1:0] ctx_valid;
+ reg [1:0] ctx_hold[0:1];
+ reg [2:0] ctx_hist0[0:1],ctx_hist1[0:1];
+ reg [7:0] ctx_clean0[0:1],ctx_clean1[0:1];
+ reg signed [12:0] ctx_ox[0:1],ctx_oy[0:1],ctx_ax[0:1],ctx_ay[0:1];
+ reg [1:0] ctx_match_q;
+ reg [15:0] ctx_cost0_q,ctx_cost1_q;
+ function [13:0] absdiff13;
+ input signed [12:0] a,b;
+ reg signed [13:0] d;
+ begin d={a[12],a}-{b[12],b}; absdiff13=d<0?-d:d; end
+ endfunction
+ wire [14:0] cm0={1'b0,absdiff13(boxc,ctx_ox[0])}+absdiff13(boyc,ctx_oy[0]);
+ wire [14:0] cm1={1'b0,absdiff13(boxc,ctx_ox[1])}+absdiff13(boyc,ctx_oy[1]);
+ wire [14:0] ca0={1'b0,absdiff13(bax,ctx_ax[0])}+absdiff13(bay,ctx_ay[0]);
+ wire [14:0] ca1={1'b0,absdiff13(bax,ctx_ax[1])}+absdiff13(bay,ctx_ay[1]);
  wire same_pose=pose_seen && move_l1*17'd4<=({4'b0,abs_bax}+abs_bay) &&
                             axis_l1*17'd4<=({4'b0,abs_bax}+abs_bay);
  wire is_slope=(side==2 || side==4);
@@ -250,12 +272,19 @@ module plate_geometry_check #(
  if(side==3)begin rx=lx+(n%5)-2;ry=ly+(n/5)-2;end
  else begin rx=lx+(n%3)-1;ry=ly+(n/3)-1;end
  end
- integer t;
+ integer t; integer ct;
  integer pd;
  reg[11:0]hole_pad;
  wire[12:0]abs_bax=bax<0?-bax:bax,abs_bay=bay<0?-bay:bay;
  always @(posedge clk or negedge rst_n)begin
  if(!rst_n)begin
+ result_slot<=0;consumed_mask<=0;owned_mask<=0;ctx_valid<=0;ctx_match_q<=0;
+ ctx_cost0_q<=0;ctx_cost1_q<=0;
+ for(ct=0;ct<2;ct=ct+1)begin
+ ctx_hold[ct]<=0;ctx_hist0[ct]<=0;ctx_hist1[ct]<=0;
+ ctx_clean0[ct]<=0;ctx_clean1[ct]<=0;
+ ctx_ox[ct]<=0;ctx_oy[ct]<=0;ctx_ax[ct]<=0;ctx_ay[ct]<=0;
+ end
  align_probe<=0;align_shift<=0;align_best<=0;align_best_missing<=2047;
  align_tilt_phase<=0;align_x_axis<=0;align_tilt<=0;align_best_tilt<=0;align_center<=0;
  align_pending_shift<=0;align_pending_tilt<=0;align_pending_probe<=0;align_pending_tilt_phase<=0;
@@ -301,13 +330,16 @@ module plate_geometry_check #(
  end else begin
  done<=0;
  case(state)
- IDLE:if(start)begin i<=0;j<=0;best_hits<=0;best_score<=26'h3ffffff;
+ IDLE:if(start)begin
+ ctx_valid<=ctx_valid & ~clear_history;
+ best_used<=0;consumed_mask<=0;owned_mask<=0;
+ i<=0;j<=0;best_hits<=0;best_score<=26'h3ffffff;
  fault<=source_error?4'b1000:0;edge_causes<=0;valid_w<=0;x0w<=0;x1w<=0;y0w<=0;y1w<=0;
  if(hole_count<4)begin
  slope_hold<=0;pose_seen<=0;slope_hist[0]<=0;slope_hist[1]<=0;
  slope_clean[0]<=0;slope_clean[1]<=0;state<=PUBLISH;
  end else state<=POSE;end
- POSE:if(i==j)state<=NEXT;else begin
+ POSE:if(i==j || exclude_mask[i] || exclude_mask[j])state<=NEXT;else begin
  ax<=$signed({2'b0,hole_x[j*11 +:11]})-$signed({2'b0,hole_x[i*11 +:11]});
  ay<=$signed({2'b0,hole_y[j*11 +:11]})-$signed({2'b0,hole_y[i*11 +:11]});
  ox<=({1'b0,hole_x[i*11 +:11]}+{1'b0,hole_x[j*11 +:11]})>>1;
@@ -328,7 +360,7 @@ module plate_geometry_check #(
  // Stage 0: dynamic array selection only.
  find_hx_q<=hole_x[k*11 +:11];
  find_hy_q<=hole_y[k*11 +:11];
- find_used_q<=used[k];
+ find_used_q<=used[k] || exclude_mask[k];
  find_last_q<=(k==hole_count-1);
  state<=FIND_DELTA;
  end
@@ -389,9 +421,34 @@ module plate_geometry_check #(
  j<=0;if(i==hole_count-1)state<=SELECT;else begin i<=i+1'b1;state<=POSE;end
  end else begin j<=j+1'b1;state<=POSE;end
  SELECT:if(best_hits<4)begin
- slope_hold<=0;pose_seen<=0;slope_hist[0]<=0;slope_hist[1]<=0;
- slope_clean[0]<=0;slope_clean[1]<=0;state<=PUBLISH;
+ state<=PUBLISH;
  end else begin
+ ctx_match_q[0]<=ctx_valid[0] && !reserved_slots[0] &&
+   ({cm0,2'b0}<=({4'b0,abs_bax}+abs_bay)) &&
+   ({ca0,2'b0}<=({4'b0,abs_bax}+abs_bay));
+ ctx_match_q[1]<=ctx_valid[1] && !reserved_slots[1] &&
+   ({cm1,2'b0}<=({4'b0,abs_bax}+abs_bay)) &&
+   ({ca1,2'b0}<=({4'b0,abs_bax}+abs_bay));
+ ctx_cost0_q<={1'b0,cm0}+ca0;ctx_cost1_q<={1'b0,cm1}+ca1;
+ state<=HISTORY_PICK;
+ end
+ HISTORY_PICK:begin
+ if(ctx_match_q==2'b11)result_slot<=ctx_cost1_q<ctx_cost0_q;
+ else if(ctx_match_q[0])result_slot<=0;
+ else if(ctx_match_q[1])result_slot<=1;
+ else result_slot<=reserved_slots[0];
+ state<=HISTORY_LOAD;
+ end
+ HISTORY_LOAD:begin
+ pose_seen<=ctx_valid[result_slot];
+ prev_ox<=ctx_ox[result_slot];prev_oy<=ctx_oy[result_slot];
+ prev_ax<=ctx_ax[result_slot];prev_ay<=ctx_ay[result_slot];
+ slope_hold<=ctx_hold[result_slot];
+ slope_hist[0]<=ctx_hist0[result_slot];slope_hist[1]<=ctx_hist1[result_slot];
+ slope_clean[0]<=ctx_clean0[result_slot];slope_clean[1]<=ctx_clean1[result_slot];
+ state<=SELECT_APPLY;
+ end
+ SELECT_APPLY:begin
  if(!same_pose)begin
  slope_hold<=0;slope_hist[0]<=0;slope_hist[1]<=0;
  slope_clean[0]<=0;slope_clean[1]<=0;
@@ -565,7 +622,7 @@ module plate_geometry_check #(
  // Dynamic k-indexed coordinate/used selection only.
  extra_hx_q<=hole_x[k*11 +:11];
  extra_hy_q<=hole_y[k*11 +:11];
- extra_used_q<=best_used[k];
+ extra_used_q<=best_used[k] || exclude_mask[k];
  extra_last_q<=(k==hole_count-1);
  state<=EXTRA_DELTA;
  end
@@ -597,6 +654,13 @@ module plate_geometry_check #(
  //   u*80 in (-blen2*58, +blen2*58)
  //   v*80 in (-blen2*18, +blen2*98)
  //   abs(u)*160 + v*80 < blen2*138
+ if(
+    extra_u80_q > -$signed(extra_lim58_q) &&
+    extra_u80_q <  $signed(extra_lim58_q) &&
+    extra_v80_q > -$signed(extra_lim18_q) &&
+    extra_v80_q <  $signed(extra_lim98_q) &&
+    extra_edge_q < $signed(extra_lim138_q))
+     owned_mask[k]<=1'b1;
  if(!extra_used_q &&
     extra_u80_q > -$signed(extra_lim58_q) &&
     extra_u80_q <  $signed(extra_lim58_q) &&
@@ -826,12 +890,22 @@ module plate_geometry_check #(
  end
 
  PUBLISH:begin
+ consumed_mask<=best_hits>=4 ? (best_used | owned_mask) : 16'd0;
+ if(best_hits>=4)begin
+ ctx_valid[result_slot]<=1;
+ ctx_ox[result_slot]<=prev_ox;ctx_oy[result_slot]<=prev_oy;
+ ctx_ax[result_slot]<=prev_ax;ctx_ay[result_slot]<=prev_ay;
+ ctx_hold[result_slot]<=slope_hold;
+ ctx_hist0[result_slot]<=slope_hist[0];ctx_hist1[result_slot]<=slope_hist[1];
+ ctx_clean0[result_slot]<=slope_clean[0];ctx_clean1[result_slot]<=slope_clean[1];
+ end
  detected<=best_hits>=4;passed<=best_hits>=4&&fault==0&&!source_error;
  // In mode2, D0/F1 = <4 circular candidates, D0/F2 = layout not matched,
  // D0/F8 = frontend error. With a matched target, retain mode1 edge bits.
  fault_code<=(DEBUG_EDGE_CAUSE==2 && best_hits<4) ?
               (source_error?4'h8:(hole_count<4?4'h1:4'h2)) :
-              (DEBUG_EDGE_CAUSE?{fault[3],edge_causes}:fault);result_hole_count<=hole_count;box_valid<=valid_w;
+              (DEBUG_EDGE_CAUSE?{fault[3],edge_causes}:fault);result_hole_count<={2'b00,best_hits}; // matched holes for THIS target
+ box_valid<=valid_w;
  box_xmin<=x0w;box_xmax<=x1w;box_ymin<=y0w;box_ymax<=y1w;
  box_xmin[11:0]<=allx0>966?allx0-6:960;box_xmax[11:0]<=allx1<1913?allx1+6:1919;
  box_ymin[11:0]<=ally0>6?ally0-6:0;box_ymax[11:0]<=ally1<1073?ally1+6:1079;
